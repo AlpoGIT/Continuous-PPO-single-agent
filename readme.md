@@ -22,4 +22,4 @@ The reacher environment (continuous 33 dimensional state space and continuous 4 
 
 ## Instructions
 
-Run the PPO_single_agent.py to train the agent. After being trained over 2000 episodes or if the environment is solved, the code will plot the scores and the average score over the last 100 episodes. It will save the neural network weights in *network.pth*. The scores will be saved in *scores.txt*. The code writes the current episode, the average score over the last 100 episodes, the maximum score and the current standard deviation. The agent should be able to solve the environment in approximatively 900 episodes.
+Run the PPO_v0.py to train the agent. After being trained over 2000 episodes or if the environment is solved, the code will plot the scores and the average score over the last 100 episodes. It will save the neural network weights in *network.pth*. The scores will be saved in *scores.txt*. The code writes the current episode, the average score over the last 100 episodes, the maximum score and the current standard deviation. The agent should be able to solve the environment in approximatively 900 episodes.
